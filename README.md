@@ -71,8 +71,8 @@ ACCESS THE APPLICATION AT :
 
 
 ## WHY ERROR (IMPORTANT)?
-![App Running](<img width="1470" height="823" alt="screenshot" src="https://github.com/user-attachments/assets/e05c242c-c434-475d-8416-fc957e42b617" />
-.png)
+![My App Screenshot](screenshot.png)
+
 
  7. We didnt add the INBOUND RULES in our instance 
  
