@@ -1,4 +1,4 @@
-## Running The Application In Our Machine  :
+## Run The Application In Our Machine  :
 
 STEPS :
 1. Clone the repo
@@ -17,7 +17,7 @@ npm install
 ACCESS AT :
 http://localhost:3000
 
-## Running The Application In EC2 :
+## Run The Application In EC2 :
 
 STEPS :
 
