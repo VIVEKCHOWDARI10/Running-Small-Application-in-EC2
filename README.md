@@ -23,6 +23,7 @@ STEPS :
 
 1. Create an EC2 Instance in the AWS and  download the  key pair which is used to ssh the ec2 instance
 2. Now ssh the ec2 :
+
    Move to the .pem downloaded file directory 
 ``` bash
  cd Downloads
@@ -39,11 +40,12 @@ STEPS :
    Your application code is written in JavaScript.
   
     👉 Node.js is the software that understands and runs JavaScript code on the server.( interprets / executes )
+   
     👉 npm is used to install and manage the external packages required by the application.
         npm = Node Package Manager
         It:
            Downloads external libraries (packages)
-           Stores them in node_modules/
+           Stores them in node_modules/ 
            Makes them available to Node.js
  ```bash
  sudo apt update
@@ -63,7 +65,15 @@ npm install
 npm run start
 ```
 ACCESS THE APPLICATION AT :
- http://<ec2-ip>:3000
+ http://localhost:3000      # here localhost will be the ec2 instance ip 
+
+
+## WHY ERROR ?
+
+ 7. We didnt add the inbound rules in our instance 
+ 
+   Go to the security groups and add new inbound rule with port 3000 and source 0.0.0.0/0 
+   
  
 
 
