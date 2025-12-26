@@ -42,11 +42,13 @@ STEPS :
     👉 Node.js is the software that understands and runs JavaScript code on the server.( interprets / executes )
    
     👉 npm is used to install and manage the external packages required by the application.
-        npm = Node Package Manager
+   
+      npm = Node Package Manager
         It:
-           Downloads external libraries (packages)
-           Stores them in node_modules/ 
-           Makes them available to Node.js
+           Downloads external libraries (packages),
+           Stores them in node_modules
+   
+   
  ```bash
  sudo apt update
  sudo apt install -y nodejs npm git
@@ -68,11 +70,11 @@ ACCESS THE APPLICATION AT :
  http://localhost:3000      # here localhost will be the ec2 instance ip 
 
 
-## WHY ERROR ?
+## WHY ERROR (IMPORTANT)?
 
- 7. We didnt add the inbound rules in our instance 
+ 7. We didnt add the INBOUND RULES in our instance 
  
-   Go to the security groups and add new inbound rule with port 3000 and source 0.0.0.0/0 
+   Go to the security groups and add new INBOUND RULE  with port 3000 and source 0.0.0.0/0 
    
  
 
