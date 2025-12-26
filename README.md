@@ -13,3 +13,6 @@
   Go to localhost:3000
 
 ```  
+1.start with running in the local machine 
+2.now create a ec2 instance 
+3.run the applicatoin in that ec2 by setting the inbound rules properly 
