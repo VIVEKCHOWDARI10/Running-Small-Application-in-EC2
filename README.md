@@ -67,8 +67,7 @@ npm install
 npm run start
 ```
 ACCESS THE APPLICATION AT :
- http://localhost:3000      
- # here localhost will be the ec2 instance ip 
+ http://localhost:3000      #here localhost will be the ec2 instance ip 
 
 
 ## WHY ERROR (IMPORTANT)?
