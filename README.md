@@ -1,4 +1,5 @@
-## Run The Application In Our Machine  :
+## A simple Node.js Express application deployed on AWS EC2.
+ Run The Application on Our Machine  :
 
 STEPS :
 1. Clone the repo
