@@ -71,7 +71,7 @@ ACCESS THE APPLICATION AT :
 
 
 ## WHY ERROR (IMPORTANT)?
-![My App Screenshot](screenshot.png)
+
 
 
  7. We didnt add the INBOUND RULES in our instance 
