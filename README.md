@@ -3,7 +3,7 @@
 STEPS :
 1. Clone the repo
  ``` bash
-   git clone
+   git clone https://github.com/VIVEKCHOWDARI10/Running-Small-Application-in-EC2.git
    ```
 2. Install the  Dependencies
 ``` bash
@@ -29,7 +29,7 @@ STEPS :
  cd Downloads
 ```
 ``` bash
-  chmod 400 <keypair-name>.pem
+ chmod 400 <keypair-name>.pem
 ``` 
 ``` bash
  ssh -i keypair-name.pem ubuntu@<ip-of-ec2>
@@ -58,7 +58,7 @@ STEPS :
 ```
 5. clone the repo :
  ``` bash
-  git clone
+  git clone  https://github.com/VIVEKCHOWDARI10/Running-Small-Application-in-EC2.git
   cd  Running-Small-Application-in-EC2
 ```
 6. Run the application
@@ -67,7 +67,8 @@ npm install
 npm run start
 ```
 ACCESS THE APPLICATION AT :
- http://localhost:3000      # here localhost will be the ec2 instance ip 
+ http://localhost:3000      
+ # here localhost will be the ec2 instance ip 
 
 
 ## WHY ERROR (IMPORTANT)?
