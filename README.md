@@ -1,5 +1,5 @@
 ## A simple Node.js Express application deployed on AWS EC2.
- Run The Application In Our Machine  :
+ Run The Application In Your Machine  :
 
 STEPS :
 1. Clone the repo
